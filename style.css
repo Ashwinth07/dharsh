@@ -1,0 +1,78 @@
+body{
+    background-color: snow;
+    border-top: 10px solid cadetblue;
+    border-bottom:10px solid cadetblue;
+    line-height: 1.8;
+}
+h1,h2,h3{
+    
+    font-size: 26px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-style: italic;
+}
+p{
+    
+    font-style: normal;
+    text-align: center;
+}
+h4{
+    
+    font-size: 13px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: cadetblue;
+    font-style: italic;
+}
+a:link
+{
+    font-size: medium;
+    color: sandybrown;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+h1,h2,h3,h4{
+    text-align: center;
+
+}
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 300px;
+}
+.next
+{
+    background-color: paleturquoise;
+    border-bottom-left-radius: 10;
+    border-color: slategrey;
+    cursor: pointer;
+    color: black;
+    padding: 6px;
+    width: 50%;
+   
+   
+}
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    background-color: whitesmoke;
+}
+.next1
+{
+    background-color: paleturquoise;
+    border-bottom-left-radius: 10;
+    border-color: slategrey;
+    cursor: pointer;
+    color: black;
+    padding: 6px;
+    width: 25%;
+   float: inline-start;
+}
